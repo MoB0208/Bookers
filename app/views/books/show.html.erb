@@ -5,7 +5,8 @@
   </hesd>
 
   <body>
-      <p id="notice"></p>
+      <div><%= flash[:notice] %></div>
+
       <p>
           <strong>Title:</strong>
           <%= @book.title %>
